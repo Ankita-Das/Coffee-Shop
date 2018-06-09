@@ -2,7 +2,7 @@
 
 $servername="localhost";
 $username="root";
-$password="LIfeisyours!";
+$password="**************";// enter your password
 $dbname="cartDB";
 
 $conn= new mysqli($servername,$username,$password,$dbname);
