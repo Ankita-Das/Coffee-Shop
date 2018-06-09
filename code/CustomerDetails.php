@@ -15,7 +15,7 @@ E-mail:<input type="text" name="email"><br>
 
 $servername="localhost";
 $username="root";
-$password="LIfeisyours!";
+$password="*******";
 $dbname="cfDB";
 
 $conn= new mysqli($servername,$username,$password,$dbname);
