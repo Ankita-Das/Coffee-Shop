@@ -6,7 +6,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "LIfeisyours!";
+$password = "*********"; //enter your password
 $dbname1 = "cartDB";
 $dbname2 = "cfDB";
 
