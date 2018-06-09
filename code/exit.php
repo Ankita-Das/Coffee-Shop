@@ -9,7 +9,7 @@
 
 $servername = "localhost";
 $username = "root";
-$password = "*********";
+$password = "*********"; //enter your password
 $dbname = "cartDB";
 
 $conn=mysqli_connect($servername,$username,$password,$dbname);
@@ -42,5 +42,6 @@ if ($result->num_rows > 0) {
 }
 $conn->close();
 ?>
+<p><a href="main_cf.php">Home Page</a></p>
 </body>
 </html>	
