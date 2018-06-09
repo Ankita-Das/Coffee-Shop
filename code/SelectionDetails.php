@@ -6,7 +6,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "*********"; //enter your password
+$password = "*******";//enter your password
 $dbname1 = "cartDB";
 $dbname2 = "cfDB";
 
@@ -18,7 +18,7 @@ if($conn2 === false){
 }
 
 else{
-	echo "Connection successful TO Customer Details table!";
+	//echo "Connection successful TO Customer Details table!";
 }
 
 
@@ -32,12 +32,11 @@ $i=1;
 //echo $n;
 //echo"<br> $i";
 
-echo "out";
 if($result->num_rows>0){
 	while($row=$result->fetch_assoc()){
-		echo "<br>i: $i  n:$n";
+		//echo "<br>i: $i  n:$n";
 		if($i==$n){
-		echo "<br>Matched!";
+		//echo "<br>Matched!";
 		//echo "<br> i: $i";
 		echo "Name: " . $row["firstname"]. " " . $row["lastname"]. "<br>";
 		}
@@ -59,19 +58,15 @@ if($conn1 === false){
 }
 
 else{
-	echo "Connection successful to Coffee Details table!";
+	//echo "Connection successful to Coffee Details table!";
 }
 
 
-
-/*$name="Cappucino";
-$quantity=$_POST["quantity"];
-$price="150";
-echo "Successfully added $quantity Cappucinos to Your Kart!";*/
 $sql = "SELECT * FROM Mycart";
 $result = $conn1->query($sql);
-echo "done";
-echo "Number of rows: $result->num_rows<br>";
+echo "<br><br>Selection Details";
+//echo "Number of rows: $result->num_rows<br>";
+echo "<br>";
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
