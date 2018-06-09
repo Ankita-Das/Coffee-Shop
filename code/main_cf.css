@@ -1,0 +1,60 @@
+body{
+	height:900px;
+	width:2000px;	
+	background-image : /*url("http://www.lovethispic.com/uploaded_images/278730-Good-Morning-Coffee-Image.jpg"),*/ url("https://images.medicaldaily.com/sites/medicaldaily.com/files/styles/headline/public/2018/04/17/coffee-beans.jpg");
+	background-repeat: repeat;
+	/*background-color : blue;*/
+	
+	
+}
+
+h1{
+	color:white;
+	font-size:70px;
+	font-family:courier;
+	
+	
+	
+	
+
+}
+
+ul{
+	font-size:30px;
+	font-weight:bold;
+	/*list-style-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtBoHNz9uPpz1zPbN0eSkbGDyhjNkRhL8bqMsqS5qgBll9gKRq');*/
+}
+a:link{
+	color: red;
+	
+}
+
+a:visited{
+	color: purple;
+}
+
+a:hover{
+	color: blue;
+}
+
+a:active{
+	color:white;
+}
+
+h2{
+	color:white;
+	font-family:courier;
+	font-size:40px;
+}
+
+
+p.det{
+	color:green;
+	font-size:20px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+
+
+
