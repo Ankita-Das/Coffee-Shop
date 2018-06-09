@@ -9,7 +9,7 @@
 
 $servername = "localhost";
 $username = "root";
-$password = "LIfeisyours!";
+$password = "*********";
 $dbname = "cartDB";
 
 $conn=mysqli_connect($servername,$username,$password,$dbname);
