@@ -1,4 +1,6 @@
 # Coffee-Shop
 A coffee shopping site! built using php,mysql,html,css
 
-RUN HERE AT [link](localhost/main_cf.php).
+START RUNNING THE FILE:
+at localhost/main_cf.php
+after replacing the passwords
